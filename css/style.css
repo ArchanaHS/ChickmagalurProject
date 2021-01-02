@@ -1,0 +1,209 @@
+body{
+   
+
+    
+    
+    min-height: 100vh;
+    overflow-x: hidden;
+
+}
+.vertical-nav{
+    background: rgb(43, 156, 118);
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0,0,0, 0.1);
+    transition: all 0.4s;
+  
+}
+
+.page-content{
+  background: indianred;
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+  }
+  .page-content1{
+    background: whitesmoke;
+      width: calc(100% - 17rem);
+      margin-left: 17rem;
+      transition: all 0.4s;
+    }
+   
+ 
+  
+  #sidebar.active{
+    margin-left: -17rem;
+    background-color: rgb(24, 21, 21);
+  }
+  #content.active{
+    
+    width: 100%;
+    margin: 0;
+  }
+  
+  .text-uppercase{
+    Letter-spacing: 0.1em;
+  }
+  .text-gray{
+      color: #aaa;
+  }
+  .nav-link{
+      text-transform: capitalize;
+  }
+ 
+  .nav-link:hover{
+      background: #f3f2f2;
+  }
+  .text-primary{
+    color: #7779e7;
+}
+
+@media (max-width:768px){
+    #sidebar{
+        margin-left: -17rem;
+        
+    }
+    #sidebar.active{
+        margin-left: 0;
+        
+    }
+    #content{
+        width: 100%;
+        margin:0;
+    }
+    #content.active{
+        margin-left: 17rem;
+        width: calc(100%-17rem);
+    }
+    
+
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+#heading{
+    color: blue ;
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+}
+#banner{
+  
+   position: relative;
+   width: 90%;
+   margin: 0 auto;
+  
+
+}
+#banner1{
+  
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+
+}
+#banner2{
+  
+  position: relative;
+  width: 80%;
+
+  margin: 0 auto;
+
+}
+#banner3{
+  
+position: relative;
+width: 90%;
+
+margin: 0 auto;
+
+}
+#img{
+position: relative;
+width: 100%;
+
+
+}
+.col-lg img{
+  
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  transform: scale(1);
+
+}
+.col-lg img:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+#imgg{
+  height: 450px;
+}
+#img{
+  height: 350px;
+}
+#img1{
+  height: 220px;
+}
+#navid{
+  width: 100%;
+  height: 70px;
+  background: rgba(192, 186, 186, 0.7);
+  
+  
+}
+#navid1{
+  width: 100%;
+  height: 70px;
+  background: rgba(192, 186, 186, 0.7);
+  
+  
+}
+#background{
+  background: white;
+}
+
+ 

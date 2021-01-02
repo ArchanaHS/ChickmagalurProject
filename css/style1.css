@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+.background{
+    
+    background-image: url(../images/archana/acchu7.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.nav{
+    width:350px;
+    height: auto;
+    
+    position: absolute;
+    top: 20%;
+    left: 0;
+
+}
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Verdana;
+    font-weight: bold;
+    
+    display: inline-block;
+    height: 90px;
+    margin: 5px 0;
+   
+    background-color: rgb(15, 4, 4);
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    transition: 300ms;
+}
+a.active,
+.nav a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+
+}
+.a{
+    width: 95%;
+}
+.b{
+    width: 85%;
+}
+.c{
+    width: 80%;
+}
+.d{
+    width: 95%;
+}
+.content{
+    width: 930px;
+    min-height: 400px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+   
+    right: 0;
+    
+}
+.con{
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    color: rgb(253, 244, 244);
+
+    font-family: Verdana;
+    text-transform: uppercase;
+}
+.con h1{
+    font-size: 75px;
+    padding-right: 90px;
+    border-bottom:1px solid rgb(119, 107, 107);
+}
+.con h3{
+    font-size: 28px;
+    padding: 5px 0;
+    opacity: 0.6;
+}
+.about{
+    
+    
+    top: 25px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+}
+.about p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 25px;
+
+}
+.gallery{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    padding: 0 60px;
+    display: none;
+
+}
+.gallery .image{
+    width: 25%;
+    margin: 1%;
+    float: left;
+    
+}
+.image img{
+    width: 100%;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    transform: scale(1);
+ 
+}
+.image img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+#img{
+    height: 205px;
+}
+ #img1{
+    height: 220px;
+}
+
+#acchu1{
+    border-radius: 50%;
+    position: absolute;
+    float: left;
+    left: 49%;
+    
+}
+.contact{
+    
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    padding: 0 60px;
+    display: none;
+
+}
+.inputtext{
+    width: 55%;
+    height: 65px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    text-align: center;
+    padding: 0 10px;
+    float: left;
+    margin-bottom: 15px;
+}
+.inputmessage{
+    width: 55%;
+    height: 135px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 20px;
+    text-align: center;
+    padding: 0 10px;
+    float: left;
+}
+.submitbutton{
+    width: 160px;
+    height: 65px;
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    clear: left;
+    margin-top: 25px;
+}
+#navid{
+    width: 100%;
+    height: 70px;
+    background: rgba(192, 186, 186, 0.7);
+    
+    
+  }
+
+
+
+
